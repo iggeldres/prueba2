@@ -1,0 +1,49 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>registro</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-list>
+    <ion-item>
+      <ion-label>Nombre:</ion-label>
+      <ion-input placeholder="Ingresar Nombre"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>Apellido:</ion-label>
+      <ion-input placeholder="Ingresar Apellido"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>Edad:</ion-label>
+      <ion-input type="number" placeholder="Ingresar Edad"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>Nombre de usuario:</ion-label>
+      <ion-input placeholder="Ingresar Usuario"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>Contraseña</ion-label>
+      <ion-input type="password" value="password"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>Fecha de nacimiento</ion-label>
+      <ion-input type="date" placeholder="Ingresar fecha de nacimiento"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>Genero</ion-label>
+      <ion-input type="sex" placeholder="Masculino-Femenino"></ion-input>
+    </ion-item>
+  </ion-list>
+
+  <ion-button [routerLink]="['']" >Registrar</ion-button>
+  <ion-button [routerLink]="['/inicios']" >volver</ion-button>
+
+
+</ion-content>

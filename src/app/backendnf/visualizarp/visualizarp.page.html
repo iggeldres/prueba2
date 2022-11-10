@@ -1,0 +1,27 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>visualizarp</ion-title>
+    <ion-icon name="person-outline" [routerLink]="['/inicios']"></ion-icon>
+    <ion-icon name="cart-outline" type="icon-end" [routerLink]="['/carro']"></ion-icon>
+
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <ion-card>
+    <ion-card-header>
+      <img  src="https://carozziexport.com/assets/img/products/_large/210485_CHOCOLATE_RAMA_LECHE_16X115G_1.jpg" />
+      <ion-card-title>Chocolate</ion-card-title>
+      <ion-card-subtitle>Costa Rama</ion-card-subtitle>
+    </ion-card-header>
+
+    <ion-card-content>
+      Precio: $1.500
+    </ion-card-content>
+
+    <ion-button [routerLink]="['/detalle']" >Detalle</ion-button>
+    <ion-button >Agregar al carrito</ion-button>
+  </ion-card>
+
+</ion-content>
